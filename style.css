@@ -3,3 +3,50 @@ body{
     margin :0;
     
 }
+/*Start Header section*/
+.container{
+    display:flex;
+}
+.container{
+    
+    background-image:url(images/top-banner.png);
+    background-repeat:no-repeat;
+}
+
+.half-position{
+    width:50%;
+}
+.half-position img{
+    width:60%;
+    float:right;
+    border:3px solid blue;
+    border-radius:50%;
+}
+.heading{
+    width:100%;
+  
+}
+.heading{
+    padding-left:20px;
+}
+.heading h1,h2{
+    font-size:40px;
+    color:blue;
+}
+span{
+    font-size:80px;
+    color:orange;
+}
+.heading p{
+    font-weight:bold;
+    color:orange;
+}
+a{
+    text-decoration:none;
+    background-image:linear-gradient(orange,blue);
+    padding:5px 10px;
+    color:white;
+    font-weight:400;
+    border-radius:3px;
+}
+/*End Header section*/
